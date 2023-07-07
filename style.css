@@ -1,5 +1,5 @@
 body {
-    background: #a3ddf19d
+    background: linear-gradient(90deg, #16c868, #61f1ee);
 }
 
 .container {
@@ -38,13 +38,12 @@ body {
 }
 .header-block .navigations .lik {
     color: #000000;
-    font-family: "RobotoRegular";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
 }
-.About{
+.cont{
     background-image:url(/images/IT.png);
     display: flex;
     align-items: flex-end;
@@ -56,3 +55,47 @@ body {
     flex-direction: column;
     align-items: center;
 }
+.About {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -200px;
+}
+.Skills {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Codeexamples {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.foot {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+.trademark {
+    margin: 52px 0px 0 25px;
+}
+
+.mark {
+    width: 100px;
+    margin: -24px 0 0px 79px;
+}
+    
+.basement__remark {
+    display: flex;
+}
+        
+.remark {
+    margin: 0px 0px 0px 0px;
+}
+    
