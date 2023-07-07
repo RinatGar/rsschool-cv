@@ -1,0 +1,147 @@
+body {
+    background: linear-gradient(90deg, #3c4540, #146b69);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 5px auto;
+    position: relative;
+}
+
+.header-block {
+    height: 286px;
+    width: 1200px;
+    background-image: url(/images/headerB.png);
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.avatar {
+    width: 19%;
+    border-radius: 28%;
+    margin-right: 184px;
+}
+.nav {
+    margin: 0px 0px 220px -180px;
+}
+.header-block .navigations {
+    display: flex;
+}
+.header-block .navigations-item {
+    margin-right: 27px;
+}
+.header-block .navigations .hov a:hover {
+    color: #EF7F04;
+    border-top: 5px solid #EF7F04;
+    padding-top: 27px;
+}
+.header-block .navigations .lik {
+    color: #000000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+.cont{
+    background-image:url(/images/IT.png);
+    padding-right: 158px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.sect {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.About {
+    width: 100%;
+    background: linear-gradient(178deg, #16c868, #61f1ee);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    border: outset;
+        
+    .About_me {
+        width: 54%;
+    }
+}
+.Skills {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.Codeex {
+    width: 32%;
+    background: linear-gradient(293deg, #16c868, #61f1ee);
+    display: flex;
+    margin-top: 5px;
+    flex-direction: column;
+    border: outset;
+    align-content: stretch;
+    align-items: center;
+}
+.ex {
+    width: 100%;
+    background: linear-gradient(272deg, #16c868, #61f1ee);
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    border: outset;
+    
+    .ex_exp {
+        width: 45%;
+
+    }
+
+    .ex_edu {
+        width: 37%;
+
+    }
+}
+
+.Codeexamples {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.foot {
+    border-width: medium;
+    border-top-style: ridge;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.rs {
+    width: 100px;
+
+    
+    rs_logo {
+        width: 100px;
+}
+}
+    
+.ears {
+    width: 50px;
+    
+    .ears_img {
+        width: 72px;
+
+    }
+}
+.git {
+    width: 50px;
+    
+    .git_hub {
+        width: 100px;
+
+    }
+}
