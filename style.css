@@ -1,10 +1,10 @@
 body {
-    background: linear-gradient(90deg, #16c868, #61f1ee);
+    background: linear-gradient(90deg, #3c4540, #146b69);
 }
 
 .container {
     max-width: 1200px;
-    margin: 0px auto;
+    margin: 5px auto;
     position: relative;
 }
 
@@ -45,26 +45,62 @@ body {
 }
 .cont{
     background-image:url(/images/IT.png);
+    padding-right: 158px;
     display: flex;
     align-items: flex-end;
     flex-direction: column;
 }
 .sect {
-    margin-top: 200px;
+    margin-top: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .About {
+    width: 100%;
+    background: linear-gradient(178deg, #16c868, #61f1ee);
     display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-top: -200px;
+    flex-direction: row;
+    align-items: flex-start;
+    border: outset;
+        
+    .About_me {
+        width: 54%;
+    }
 }
 .Skills {
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+.Codeex {
+    width: 32%;
+    background: linear-gradient(293deg, #16c868, #61f1ee);
+    display: flex;
+    margin-top: 5px;
+    flex-direction: column;
+    border: outset;
+    align-content: stretch;
+    align-items: center;
+}
+.ex {
+    width: 100%;
+    background: linear-gradient(272deg, #16c868, #61f1ee);
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    border: outset;
+    
+    .ex_exp {
+        width: 45%;
+
+    }
+
+    .ex_edu {
+        width: 37%;
+
+    }
 }
 
 .Codeexamples {
@@ -75,27 +111,37 @@ body {
 
 
 .foot {
-    margin-top: 50px;
+    border-width: medium;
+    border-top-style: ridge;
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-evenly;
 }
 
-.trademark {
-    margin: 52px 0px 0 25px;
-}
-
-.mark {
+.rs {
     width: 100px;
-    margin: -24px 0 0px 79px;
+
+    
+    rs_logo {
+        width: 100px;
+}
 }
     
-.basement__remark {
-    display: flex;
-}
-        
-.remark {
-    margin: 0px 0px 0px 0px;
-}
+.ears {
+    width: 50px;
     
+    .ears_img {
+        width: 72px;
+
+    }
+}
+.git {
+    width: 50px;
+    
+    .git_hub {
+        width: 100px;
+
+    }
+}
